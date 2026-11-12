@@ -93,6 +93,8 @@ main { flex: 1; width: 100%; }
 .signup button:hover { background: #f59a57; }
 .signup fieldset { margin: 0; padding: 0; border: 0; min-width: 0; display: grid; gap: 10px; }
 .signup fieldset:disabled input, .signup fieldset:disabled button { opacity: 0.5; cursor: not-allowed; }
+.signup .agree { display: flex; gap: 10px; align-items: flex-start; color: var(--ink-2); font-size: 15px; line-height: 1.45; cursor: pointer; }
+.signup .agree input { flex: none; width: 20px; height: 20px; margin: 1px 0 0; accent-color: var(--orange); }
 .consent { color: var(--ink-3); font-size: 14.5px; line-height: 1.5; }
 .consent a { color: var(--ink-2); }
 .closed { padding: 10px 14px; border: 1px dashed #6b4a1f; border-radius: 10px; color: #f3d19a; font-size: 14.5px; }
